@@ -1,3 +1,6 @@
+// UV_THREADPOOL_SIZE=4 node 1b-concurrency.js
+// UV_THREADPOOL_SIZE is the size of threads into EventLoop. By default is 4 and the main thread in NodeJS
+
 const crypto = require("node:crypto");
 const rounds = 50000;
 let times = 13;
